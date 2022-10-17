@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    @keyframes textrotation {
+        from{
+            transform:rotateZ(0)
+        }
+        to{
+            transform:rotateZ(180deg)
+        }    
+    }
+    @keyframes boxsize1 {
+        0%{
+            top: 25px;
+            height: 50px;
+        }
+        10%{
+            top: 0px;
+            height: 100px;
+        }
+        100%{
+            top: 25px;
+            height: 50px;
+        }
+    }
+    @keyframes boxsize2 {
+        0%{
+            top: 25px;
+            height: 50px;
+        }
+        30%{
+            top: 0px;
+            height: 100px;
+        }
+        100%{
+            top: 25px;
+            height: 50px;
+        }
+    }
+    @keyframes boxsize3 {
+        0%{
+            top: 25px;
+            height: 50px;
+        }
+        50%{
+            top: 0px;
+            height: 100px;
+        }
+        100%{
+            top: 25px;
+            height: 50px;
+        }
+    }
+    @keyframes boxsize4 {
+        0%{
+            top: 25px;
+            height: 50px;
+        }
+        70%{
+            top: 0px;
+            height: 100px;
+        }
+        100%{
+            top: 25px;
+            height: 50px;
+        }
+    }
+    @keyframes boxsize5 {
+        0%{
+            top: 25px;
+            height: 50px;
+        }
+        90%{
+            top: 0px;
+            height: 100px;
+        }
+        100%{
+            top: 25px;
+            height: 50px;
+        }
+    }
+
+    body {
+        background-color:mediumturquoise ;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .divmom1 {
+        
+        /* background-color: black; */
+        margin-top: 200px;
+        width: 100px;
+        height: 100px;
+        position: relative;
+    }
+    .divmom2 {
+        /* background-color: black; */
+        /* margin-top: 0px; */
+        width: 96px;
+        height: 640px;
+        position: relative;
+    }
+    .span1 {
+        font-size: 25px;
+        color: white;
+        position: absolute;
+        animation: textrotation 1s ease-in-out infinite;
+    }
+    .div1 {
+        background-color: white;
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 0px;
+        animation: boxsize1 1s ease-in-out infinite;
+        
+    }
+    .div2 {
+        background-color: white;
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 20px;
+        animation: boxsize2 1s ease-in-out infinite;
+        
+    }
+    .div3 {
+        background-color: white;
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 40px;
+        animation: boxsize3 1s ease-in-out infinite;
+        
+    }
+    
+    .div4 {
+        background-color: white;
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 60px;
+        animation: boxsize4 1s ease-in-out infinite;
+    }
+
+    .div5 {
+        background-color: white;
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        left: 80px;
+        animation: boxsize5 1s ease-in-out infinite;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="divmom1">
+        <span class="span1">●&nbsp;&nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;&nbsp;&nbsp;●</span>
+    </div>
+
+    <div class="divmom2">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+    </div>
+
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <!-- <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
+</body>
+
+</html>

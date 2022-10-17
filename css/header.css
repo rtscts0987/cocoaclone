@@ -1,0 +1,24 @@
+.header {
+    /* background-color: blue; */
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.header__header {
+    margin: 0px;
+}
+
+.header__header h1{
+    margin-left: 30px;
+}
+
+.header__btn {
+    margin: 0px;
+}
+
+.header__btn i{
+    margin-right: 30px;
+}
