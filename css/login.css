@@ -1,0 +1,91 @@
+.login-welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-welcom__header {
+    margin-top: 100px;
+    font-size: 15px;
+}
+.login-welcom__meassage  {
+    margin-bottom: 100px;
+}
+
+.login-welcom__meassage p {
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.login-welcom__meassage p:first-child {
+    margin-left: 30px;
+    height: 0px;
+}
+
+.login-welcom__meassage p:last-child{
+    margin-left: -20px;
+    height: 0px;
+}
+
+.login-input  {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    width: 100%;
+}
+
+.login-input p input {
+    font-size: 20px;
+    width: 690px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,0.3);
+
+}
+
+.login-btn  {
+    /* background-color: blue; */
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    width: 100%;
+}
+.login-btn  p{
+    margin: 5px;
+}
+
+.login-btn  p input{
+    margin: 0px;
+    padding: 0px;
+    width: 690px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.05);
+    border-width: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.login-find {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    width: 100%;
+}
+
+.login-find p input{
+    background-color: whitesmoke;
+    border-width: 0px;
+    font-size: 20px;
+}

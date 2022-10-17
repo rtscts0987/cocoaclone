@@ -1,0 +1,68 @@
+.controlbar {
+    width: 690px;
+    height: 20px;
+    background-color: rgba(0,0,0,0.08);
+    margin: 0px;
+    padding: 30px;
+    
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    position: absolute;
+    /* position: relative; */
+    bottom: 0px;
+
+    margin-top: 5px solid rgba(0,0,0,0.7);
+
+}
+
+.controlbar__btn{
+    /* background-color: blue; */
+    width: 900px;
+    height: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* bottom: 0px; */
+}
+
+.controlbar i{
+    margin-right: 20%;
+    font-size: 40px;
+    position: relative;
+}
+
+.controlbar i:first-child {
+    margin-left: 150px;
+}
+
+.controlbar i span{
+    width: 30px;
+    height: 30px;
+    background-color:darkorange;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    right: -10px;
+}
+
+.controlbar i div{
+    width: 10px;
+    height: 10px;
+    background-color:darkorange;
+    color: white;
+    border-radius: 5px;    
+    position: absolute;
+    top: -20px;
+    right: -10px;
+}

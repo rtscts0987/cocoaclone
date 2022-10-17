@@ -1,0 +1,31 @@
+.status {
+    /* background-color: blue; */
+    width: 750px;
+    height: 25px;
+    display: flex;
+    position: fixed;
+    position: relative;
+}
+
+.status_service {
+    position: absolute;
+    left: 0%;
+}
+.status_service i{
+    margin-left: 5px;
+}
+
+.status_time {
+    position: absolute;
+    left: 48%;
+}
+
+.status_battery {
+    position: absolute;
+    right: 0px;
+}
+
+.status_battery i, span{
+    margin-left: 5px;
+}
+

@@ -1,0 +1,107 @@
+.friends-namesdisplay {
+    width: 750px;
+    height: 40px;
+    
+    background-color: rgba(0,0,0,0.05);
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+    
+}
+
+.friends-namesdisplay span:first-child{
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: gray;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.friends-namesdisplay span{
+    
+    margin-right: 10px;
+}
+
+.friends-namesdisplay i{
+    color: gray;
+}
+
+.friends-namesdisplay__list {
+    width: 700px;
+    height: 100px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.friends-namesdisplay__img {
+    margin: 0px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.friends-namesdisplay__img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.friends-namesdisplay__img h1{
+    margin-left: 30px;
+}
+
+.friends-namesdisplay__message {
+    /* background-color: blue; */
+    width: 600px;
+    margin: 0px;
+    margin-left: 15px;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content:start; */
+    /* align-items:center; */
+}
+
+.friends-namesdisplay__message h4 {
+    margin: 0px;
+    font-size: 20px;
+}
+.friends-namesdisplay__message span {
+    margin: 0px;
+    font-size: 20px;
+    opacity: 0.3;
+}
+
+.friends-namesdisplay__line {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.friends-namesdisplay__line div:nth-child(1) div:nth-child(3) {
+    /* background-color: blue; */
+    width: 50px;
+    height: 10px;
+}
+.friends-namesdisplay__line div:nth-child(2) {
+    width:700px;
+    height: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+
