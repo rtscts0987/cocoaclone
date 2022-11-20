@@ -22,3 +22,12 @@
 .header__btn i{
     margin-right: 30px;
 }
+
+.header__header_setting {
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    margin-left: 20px;
+}
