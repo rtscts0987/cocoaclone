@@ -104,4 +104,45 @@
     border-top: 1px solid rgba(0,0,0,0.1);
 }
 
+.friends-namesdisplay__channeltitle {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
 
+.friends-namesdisplay__channeltitle_channel {
+    margin-left: 20px;
+    opacity: 0.6;
+}
+
+.friends-namesdisplay__channeltitle_btn {
+    margin-right: 30px;
+    opacity: 0.3;
+}
+
+.friends-namesdisplay__channel {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.friends-namesdisplay__channellistimg img{
+    background-color: red;
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.friends-namesdisplay__channelname {
+    margin-right: 530px;
+}
+
+.friends-namesdisplay__channelbtn {
+    margin-right: 20px;
+    opacity: 0.3;
+}

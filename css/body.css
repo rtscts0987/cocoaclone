@@ -8,3 +8,14 @@
     width: 750px;
     height: 1334px;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+:root {
+    --blue: rgba(0,0,0,0.8);
+    --gray: rgba(0,0,0,0.2);
+    --text: rgba(0,0,0,0.6);
+}

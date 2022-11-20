@@ -15,12 +15,12 @@
     bottom: 0px;
 
     margin-top: 5px solid rgba(0,0,0,0.7);
-
+    z-index: 3;
 }
 
 .controlbar__btn{
     /* background-color: blue; */
-    width: 900px;
+    width: 800px;
     height: 50px;
     display: flex;
     /* flex-direction: column; */
@@ -30,17 +30,21 @@
     /* bottom: 0px; */
 }
 
-.controlbar i{
-    margin-right: 20%;
+.controlbar a i{
+    margin-right: 0%;
     font-size: 40px;
     position: relative;
 }
 
-.controlbar i:first-child {
-    margin-left: 150px;
+.controlbar a i:first-child {
+    margin-left: 80px;
 }
 
-.controlbar i span{
+.controlbar a i:last-child {
+    margin-right: 60px;
+}
+
+.controlbar a i span{
     width: 30px;
     height: 30px;
     background-color:darkorange;
@@ -56,7 +60,7 @@
     right: -10px;
 }
 
-.controlbar i div{
+.controlbar a i div{
     width: 10px;
     height: 10px;
     background-color:darkorange;
